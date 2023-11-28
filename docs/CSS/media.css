@@ -47,7 +47,7 @@
   .section-hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-image: url(/imgs/light.png);
+    background-image: url(../assets/light.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -165,7 +165,7 @@
     pointer-events: auto;
   }
   .dark-bg--herosection {
-    background-image: url(/imgs/dark.png);
+    background-image: url(../assets/dark.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
