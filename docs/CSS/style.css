@@ -163,6 +163,7 @@ html {
   transition: opacity 0.5s ease;
   animation: morphing 10s infinite;
   border: 1px solid black;
+  box-shadow: 1px 5px 3px 0px #0000004a;
 }
 
 .me-art {
