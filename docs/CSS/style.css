@@ -116,6 +116,7 @@ html {
 .section-hero {
   background-image: none;
 }
+
 .hero {
   display: grid;
   grid-template-columns: 1fr;
@@ -348,9 +349,9 @@ html {
 /* ### Footer ### */
 
 .footer {
-  padding: 6rem 3rem;
+  padding: 6rem 3rem 12rem 3rem;
   display: grid;
-  margin-bottom: 6rem;
+  border-bottom: 3px solid #ffa600;
 }
 .footer-icon-box {
   display: flex;

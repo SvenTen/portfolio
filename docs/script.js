@@ -16,7 +16,7 @@ document
   });
 
 /* Dropdown menu, first section checks if the click is happening inside dropdown menu or button, if so ignore the click */
-document.addEventListener("click", (e) => {
+document.addEventListener("mouseover", (e) => {
   const isDropdownButton = e.target.matches("[data-dropdown-button]");
   if (!isDropdownButton && e.target.closest("[data-dropdown]") != null) return;
   /* Toggles the active class on the dropdown */
@@ -106,5 +106,5 @@ darkButton.addEventListener("click", (e) => {
   heroBackground.classList.toggle("dark-bg--hero");
   mediaBackground.classList.toggle("dark-bg--herosection");
 
-  document.body.classList.toggle("gray");
+  document.body.classList.toggle("darkest");
 });
