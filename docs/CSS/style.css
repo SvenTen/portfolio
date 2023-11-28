@@ -122,14 +122,14 @@ html {
   justify-items: center;
   padding: 0 2rem;
   padding-top: 5rem;
-  background-image: url(/docs/assets/light.png);
+  background-image: url(../assets/light.png);
   background-size: cover;
   background-position: 100%;
   box-shadow: inset rgb(0 0 0 / 67%) 0px -5px 20px 0px;
 }
 
 .dark-bg--hero {
-  background-image: url(/docs/assets/dark.png);
+  background-image: url(../assets/dark.png);
   background-size: cover;
   background-position: 100%;
 }
