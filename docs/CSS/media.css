@@ -10,8 +10,6 @@
   .hero {
     background-color: #ffc039;
   }
-  .dio {
-  }
 }
 
 /* Tablet size */
@@ -142,6 +140,7 @@
 
   .droplink:hover {
     background-color: #ffcc00;
+    margin-top: -5px;
   }
 
   .dropdown-menu {

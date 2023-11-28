@@ -55,6 +55,7 @@ html {
   text-align: center;
   text-shadow: 2px -1px 0px #ffffff3b;
   background: none !important;
+  -webkit-text-stroke: 1px #222;
 }
 .heading-secondary {
   font-size: 3rem;
@@ -67,10 +68,10 @@ html {
 .sub-heading {
   color: #333;
   font-weight: 500;
-  font-size: 1.6rem;
-  font-weight: 700;
+  font-size: 1.8rem;
+  font-weight: 500;
   box-shadow: 3px -1px #ffcc00;
-  text-shadow: -6px 5px 5px #00000045;
+  background-color: rgb(255, 255, 255);
 }
 /* ### Header ### */
 .header {
@@ -97,6 +98,7 @@ html {
 }
 .header-icon:hover {
   color: #ffcc00;
+  scale: 1.2;
 }
 .color-mode {
   align-self: flex-start;
@@ -160,6 +162,7 @@ html {
   height: auto;
   transition: opacity 0.5s ease;
   animation: morphing 10s infinite;
+  border: 1px solid black;
 }
 
 .me-art {
@@ -369,6 +372,7 @@ html {
 }
 .footer-icon:hover {
   color: #ffcc00;
+  scale: 1.1;
 }
 /* # email form # */
 
